@@ -2,7 +2,7 @@ const chatContainer = document.getElementById('chat-container');
 const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
 
-const apiKey = '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';
+const apiKey = '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';
 let messageHistory = [
     { role: "system", content: "You are a helpful AI assistant." }
 ];
@@ -79,7 +79,7 @@ async function sendMessage() {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    model: "mixtral-8x7b-32768",
+                    model: "llama-3.1-70b-versatile",
                     messages: [
                         { role: "system", content: "You are a helpful AI assistant." },
                         ...messageHistory
