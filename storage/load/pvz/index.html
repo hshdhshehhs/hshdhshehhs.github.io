@@ -1,6 +1,6 @@
 <html>
-    <head>
-        <!-- Google tag (gtag.js) -->
+<head>
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFZ72L5FPQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -9,48 +9,11 @@
 
   gtag('config', 'G-TFZ72L5FPQ');
 </script>
-
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Duck Life | Seraph</title>
-    <link rel="shortcut icon" href="../../images/ico.ico" type="image/x-icon">
-    <script src="../../storage/js/cloak.js"></script>
-
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background-color: black;
-      }
-    </style>
-  </head>
-  <body>
-    <script src="/js/main.js"></script>
-    <script>
-      function loadLocalRuffle() {
-          var script = document.createElement('script');
-          script.src = '../../storage/ruffle/ruffle.js';
-          document.body.appendChild(script);
-      }
-
-      var cdnScript = document.createElement('script');
-      cdnScript.src = 'https://unpkg.com/@ruffle-rs/ruffle';
-      cdnScript.onerror = loadLocalRuffle;
-      document.body.appendChild(cdnScript);
-    </script>
-
-    <div id="ruffle" width="100%" height="100%"></div>
-    <script>
-      window.RufflePlayer = window.RufflePlayer || {};
-      window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("ruffle");
-        player.id = "player";
-        player.style.width = "100%";
-        player.style.height = "100%";
-        container.appendChild(player);
-        player.load("pvz.swf");
-      });
-    </script>
-  </body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pvz</title>
+</head>
+<body style="margin: 0; padding: 0; height: 100%; overflow: hidden;">
+    <iframe src="/static/embed.html#https://roblnet13.github.io/pvz/game/iframe.html" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+</body>
 </html>
