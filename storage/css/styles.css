@@ -94,7 +94,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.1);
   }
 
-.sigma {
+.sigma, .discord {
     padding: 20px 25px;
     background-color: #141414;
     color: white;
@@ -107,17 +107,6 @@ h1 {
 
 .sigma:hover {
     background: #555;
-}
-
-.discord {
-    padding: 20px 25px;
-    background-color: #141414;
-    color: white;
-    border-radius: 15px;
-    border: none;
-    margin: 4px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
 }
 
 .discord:hover {
