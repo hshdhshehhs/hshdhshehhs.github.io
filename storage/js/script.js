@@ -5,3 +5,10 @@ window.onload = function() {
         loadingScreen.style.display = 'none';
     }, 500);
 };
+
+function scrollToNextSection() {
+    window.scrollBy({
+        top: window.innerHeight,
+        behavior: 'smooth'
+    });
+}

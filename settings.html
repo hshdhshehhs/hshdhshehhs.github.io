@@ -25,31 +25,29 @@
         <h5 id="fetching-text">Fetching assets</h5>
     </div>
 
-    <div class="navbar">
+    <nav class="navbar">
         <div class="navbar-left">
-            <a href="/">
-                <img src="/storage/images/main/logo.png" class="logo">
-                <p class="nav-text">BRUNYSIXLWORK</p>
-            </a>
+          <img src="/storage/images/main/logo.png" alt="Logo" onclick="window.location.href='/';">
+          <p onclick="window.location.href='/';">BRUNYSIXLWORK</p>
         </div>
         <div class="navbar-right">
-            <a href="/games.html" class="nav-button"><i class="fas fa-gamepad"></i></a>
-            <a href="/apps.html" class="nav-button"><i class="fas fa-th"></i></a>
-            <a href="/proxy.html" class="nav-button"><i class="fas fa-globe"></i></a>
-            <a href="/ai.html" class="nav-button"><i class="fa-solid fa-robot"></i></a>
-            <a href="/extra.html" class="nav-button"><i class="fas fa-plus"></i></a>
-            <a href="/settings.html" class="nav-button"><i class="fas fa-cog"></i></a>
+          <button onclick="window.location.href='/games.html';"><i class="fa-solid fa-gamepad"></i></button>
+          <button onclick="window.location.href='/apps.html';"><i class="fas fa-th"></i></button>
+          <button onclick="window.location.href='/proxy.html';"><i class="fa-solid fa-globe"></i></button>
+          <button onclick="window.location.href='/ai.html';"><i class="fa-solid fa-microchip"></i></button>
+          <button onclick="window.location.href='/extra.html';"><i class="fa-solid fa-plus"></i></button>
+          <button onclick="window.location.href='/settings.html';"><i class="fa-solid fa-gear"></i></button>
         </div>
-    </div>
+      </nav>
 
 <div style="padding-top: 80px;" class="container-settings">
         <div class="box">
-            <h2>tab cloaking</h2>
+            <h2>Tab Cloaking</h2>
             <select class="sigma" id="presetSelect">
                 <option value="ixl">ixl</option>
                 <option value="s">schoology</option>
                 <option value="google">google</option>
-                <option value="googleclassroom">google classroom</option>
+                <option value="classroom">google classroom</option>
                 <option value="googledrive">google drive</option>
                 <option value="chrometab">chrome new tab</option>
                 <option value="gmail">gmail</option>
@@ -64,7 +62,7 @@
         </div>
   
         <div class="box">
-            <h2>panic mode</h2>
+            <h2>Panic Key</h2>
             <input class="sigma" type="text" id="panicKey" placeholder="choose a key combination" readonly>
             <input class="sigma" type="url" id="panicUrl" placeholder="https://www.desmos.com/scientific">
             <button class="sigma" onclick="saveSettings()">set panic key</button>
@@ -89,7 +87,7 @@
             newWindow.document.body.appendChild(iframe);
         }
     </script>
-            <h2>about:blank</h2>
+            <h2>About:Blank</h2>
             <button class="sigma" onclick="openIframe()">About:Blank</button>
         </div>
     </div>

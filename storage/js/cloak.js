@@ -47,6 +47,10 @@ document.addEventListener("DOMContentLoaded", function() {
             favicon: "/storage/images/icons/icons/s.ico",
             title: "Home | Schoology"
         },
+        classroom: {
+            favicon: "/storage/images/icons/icons/classroom.ico",
+            title: "Home"
+        },
         google: {
             favicon: "/storage/images/icons/icons/google.ico",
             title: "Google"
@@ -62,10 +66,6 @@ document.addEventListener("DOMContentLoaded", function() {
         desmos: {
             favicon: "/storage/images/icons/icons/desmos.ico",
             title: "Desmos | Graphing Calculator"
-        },
-        googleclassroom: {
-            favicon: "/storage/images/icons/icons/googleclassroom.ico",
-            title: "Home"
         },
         wikipedia: {
             favicon: "/storage/images/icons/icons/wikipedia.ico",

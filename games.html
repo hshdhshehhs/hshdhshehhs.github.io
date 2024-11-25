@@ -25,22 +25,20 @@
         <h5 id="fetching-text">Fetching assets</h5>
     </div>
 
-    <div class="navbar">
+    <nav class="navbar">
         <div class="navbar-left">
-            <a href="/">
-                <img src="/storage/images/main/logo.png" class="logo">
-                <p class="nav-text">BRUNYSIXLWORK</p>
-            </a>
+          <img src="/storage/images/main/logo.png" alt="Logo" onclick="window.location.href='/';">
+          <p onclick="window.location.href='/';">BRUNYSIXLWORK</p>
         </div>
         <div class="navbar-right">
-            <a href="/games.html" class="nav-button"><i class="fas fa-gamepad"></i></a>
-            <a href="/apps.html" class="nav-button"><i class="fas fa-th"></i></a>
-            <a href="/proxy.html" class="nav-button"><i class="fas fa-globe"></i></a>
-            <a href="/ai.html" class="nav-button"><i class="fa-solid fa-robot"></i></a>
-            <a href="/extra.html" class="nav-button"><i class="fas fa-plus"></i></a>
-            <a href="/settings.html" class="nav-button"><i class="fas fa-cog"></i></a>
+          <button onclick="window.location.href='/games.html';"><i class="fa-solid fa-gamepad"></i></button>
+          <button onclick="window.location.href='/apps.html';"><i class="fas fa-th"></i></button>
+          <button onclick="window.location.href='/proxy.html';"><i class="fa-solid fa-globe"></i></button>
+          <button onclick="window.location.href='/ai.html';"><i class="fa-solid fa-microchip"></i></button>
+          <button onclick="window.location.href='/extra.html';"><i class="fa-solid fa-plus"></i></button>
+          <button onclick="window.location.href='/settings.html';"><i class="fa-solid fa-gear"></i></button>
         </div>
-    </div>
+      </nav>
 
     <div style="margin-top: 70px;" class="search-container">
         <input type="text" id="search" placeholder="Search for YOUR Favorite Game....." onkeyup="filterItems()">
@@ -859,8 +857,52 @@
             </a>
         </div>
 
+        <div class="image-item" data-label="jstris">
+            <a href="/iframe.html?url=/storage/load/jstris/">
+                <img src="/storage/load/jstris/jstris.png">
+                <div class="label">Jstris</div>
+            </a>
+        </div>
+
+        <div class="image-item" data-label="motox3m">
+            <a href="/iframe.html?url=/storage/load/motox3m/">
+                <img src="/storage/load/motox3m/moto-x3m.png">
+                <div class="label">MotoX3M</div>
+            </a>
+        </div>
+
+        <div class="image-item" data-label="motox3m 2">
+            <a href="/iframe.html?url=/storage/load/2-x3m/">
+                <img src="/storage/load/2-x3m/2.jpeg">
+                <div class="label">MotoX3M 2</div>
+            </a>
+        </div>
+
+        <div class="image-item" data-label="motox3m winter">
+            <a href="/iframe.html?url=/storage/load/4-winter/">
+                <img src="/storage/load/4-winter/w.jpeg">
+                <div class="label">MotoX3M Winter</div>
+            </a>
+        </div>
+
+        <div class="image-item" data-label="motox3m pool party">
+            <a href="/iframe.html?url=/storage/load/5-pool-party/">
+                <img src="/storage/load/5-pool-party/pp.jpeg">
+                <div class="label">MotoX3M Pool Party</div>
+            </a>
+        </div>
+
+        <div class="image-item" data-label="motox3m spooky">
+            <a href="/iframe.html?url=/storage/load/6-spooky-land/">
+                <img src="/storage/load/6-spooky-land/s.jpeg">
+                <div class="label">MotoX3M Spooky</div>
+            </a>
+        </div>
+
       
     </div>
+
+    <br>
 
     <script src="/storage/js/box.js"></script>
     <script src="/storage/js/script.js"></script>
