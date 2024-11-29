@@ -203,8 +203,8 @@ h1 {
 
 .image-item {
     position: relative;
-    width: 195px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
     overflow: hidden;
     transition: transform 0.3s;
     border-radius: 10px;
@@ -405,6 +405,40 @@ hr {
     border-radius: 10px;
     color: #fff;
     font-family: Arial, sans-serif;
+}
+
+.l-box {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    width: 50vw;
+    background-color: #141414; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.box-image {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.leaderboard h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+}
+
+.leaderboard p {
+    margin: 5px 0 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.l-box:hover {
+    transform: scale(1.05);
 }
 
 ::-webkit-scrollbar {
