@@ -441,6 +441,10 @@ hr {
     transform: scale(1.05);
 }
 
+a {
+    text-decoration: none;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
 }
