@@ -42,8 +42,8 @@ document.getElementById('whysofeinious-button').addEventListener('click', functi
 
             script.onload = function() {
                 new Crate({
-                    server: '1272664240175448208', 
-                    channel: '1272664509156298773' 
+                    server: '1271606448878780478', 
+                    channel: '1272275936389103637' 
                 });
             };
         });
