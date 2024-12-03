@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/ixl/',
-    bare:'https://bare.lostlogs.org/', /* Thanks benrogo */
+    bare:'https://static.99.135.156.178.clients.your-server.de/', 
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
