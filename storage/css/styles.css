@@ -37,62 +37,45 @@ h1 {
     margin: 0;
 }
 
-.navbar {
+.side-navbar {
+    z-index: 999;
+    height: 100%;
+    width: 60px; 
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    background-color: rgba(20, 20, 20, 0.9);
-    backdrop-filter: blur(10px); 
+    background-color: #141414;
+    overflow-x: hidden;
+    padding-top: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 4px 25px;
-    z-index: 99999;
-  }
+}
 
-  .navbar-left {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar-left img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    cursor: pointer;
-    border-radius: 100px;
-  }
-
-  .navbar-left p {
-    font-family: "Outfit", sans-serif;
-    font-size: 1.2rem;
-    color: white;
-    margin: 0;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-  }
-  
-  .navbar-right {
-    margin-right: 50px;
-    display: flex;
-    gap: 15px;
-  }
-
-  .navbar-right button {
-    background-color: transparent;
-    border: none;
+.side-navbar a {
+    padding: 15px 0;
+    text-decoration: none;
     color: #fff;
-    font-size: 1.2rem;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 100px;
-    transition: background-color 0.3s ease;
-  }
+    display: block;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s;
+}
 
-  .navbar-right button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
+.side-navbar a:hover {
+    background-color: #575757;
+}
+
+.side-navbar a i {
+    font-size: 24px; 
+}
+
+.side-navbar img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
 
 .sigma, .discord {
     padding: 20px 25px;
@@ -195,6 +178,7 @@ h1 {
 }
 
 .container {
+    margin-left: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -230,16 +214,26 @@ h1 {
 
 .label {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     background-color: rgba(20, 20, 20, 0.7);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
+    opacity: 0; /* Hide the label by default */
+    transition: opacity 0.3s;
 }
+
+.image-item:hover .label {
+    opacity: 1; /* Show the label on hover */
+}
+
 
 .container-iframe {
     display: flex;

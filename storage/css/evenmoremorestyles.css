@@ -135,8 +135,8 @@ iframe {
 }
 
 #iframe {
-    margin-top: 50px;
-    width: 100vw; 
-    height: 50vh; 
+    margin-left: 60px;
+    width: 97vw; 
+    height: 100vh; 
     border: none;
 }

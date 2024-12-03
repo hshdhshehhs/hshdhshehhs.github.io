@@ -25,22 +25,19 @@
         <h5 id="fetching-text">Fetching assets</h5>
     </div>
 
-    <nav class="navbar">
-        <div class="navbar-left">
-          <img src="/storage/images/main/logo.png" alt="Logo" onclick="window.location.href='/';">
-          <p onclick="window.location.href='/';">BRUNYSIXLWORK</p>
-        </div>
-        <div class="navbar-right">
-          <button onclick="window.location.href='/games.html';"><i class="fa-solid fa-gamepad"></i></button>
-          <button onclick="window.location.href='/apps.html';"><i class="fas fa-th"></i></button>
-          <button onclick="window.location.href='/proxy.html';"><i class="fa-solid fa-globe"></i></button>
-          <button onclick="window.location.href='/ai.html';"><i class="fa-solid fa-microchip"></i></button>
-          <button onclick="window.location.href='/extra.html';"><i class="fa-solid fa-plus"></i></button>
-          <button onclick="window.location.href='/settings.html';"><i class="fa-solid fa-gear"></i></button>
-        </div>
-      </nav>
+    <div class="side-navbar">
+        <a href="/">
+            <img src="/storage/images/main/logo.png" alt="Home">
+        </a>
+        <a href="/games.html"><i class="fa-solid fa-gamepad"></i></a>
+        <a href="/apps.html"><i class="fa-solid fa-border-all"></i></a>
+        <a href="/proxy.html"><i class="fa-solid fa-globe"></i></a>
+        <a href="/ai.html"><i class="fa-solid fa-microchip"></i></a>
+        <a href="/extra.html"><i class="fa-solid fa-plus"></i></a>
+        <a href="/settings.html"><i class="fa-solid fa-gear"></i></a>
+    </div>
 
-    <div style="margin-top: 70px;" class="search-container">
+    <div style="margin-top: 20px;" class="search-container">
         <input type="text" id="search" placeholder="Search for YOUR Favorite Game....." onkeyup="filterItems()">
     </div>
     <div class="container" id="imageContainer">
@@ -1015,6 +1012,20 @@
             <a href="/iframe.html?url=/storage/load/supermeatboy/">
                 <img src="/storage/load/supermeatboy/IMG_5378.jpeg">
                 <div class="label">Super Meat Boy</div>
+            </a>
+        </div>
+
+        <div class="image-item" data-label="the binding of isaac">
+            <a href="/iframe.html?url=/storage/load/thebindingofisaac/">
+                <img src="/storage/load/thebindingofisaac/tboi.webp">
+                <div class="label">The Binding Of Isaac</div>
+            </a>
+        </div>
+
+        <div class="image-item" data-label="paper io 2">
+            <a href="/iframe.html?url=/storage/load/paperio2/">
+                <img src="/storage/load/paperio2/images/icon192.png">
+                <div class="label">Paper IO 2</div>
             </a>
         </div>
 
