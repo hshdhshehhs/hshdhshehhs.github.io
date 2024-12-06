@@ -16,7 +16,7 @@ body {
     width: 400px;
     border: none;
     background-color: #141414;
-    border: 2px solid #262626;
+    border: none;
     border-radius: 50px;
     font-family: "Outfit", sans-serif;
     outline: none;
@@ -34,14 +34,14 @@ input {
     border: none;
     color: #fff;
     background-color: #141414;
-    border: 2px solid #262626;
+    border: none;
     border-radius: 50px;
 }
 
 .search-button {
     padding: 20px 20px;
     background-color: #141414;
-    border: 2px solid #262626;
+    border: none;
     color: white;
     font-size: 16px;
     border-radius: 50px;
