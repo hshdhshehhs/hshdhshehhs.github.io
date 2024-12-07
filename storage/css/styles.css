@@ -432,6 +432,7 @@ hr {
     border-radius: 15px;
     display: flex;
     align-items: center;
+    text-align: left;
     border: none;
     padding: 10px;
     width: 50vw;
