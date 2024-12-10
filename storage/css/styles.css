@@ -418,6 +418,7 @@ hr {
 }
 
 .text-box {
+    font-family: "Outfit", sans-serif;
     width: 500px;
     padding: 20px;
     border: none;
@@ -426,9 +427,15 @@ hr {
     border-radius: 10px;
     color: #fff;
     font-family: Arial, sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+.text-box:hover {
+    transform: translateY(-10px);
 }
 
 .l-box {
+    font-family: "Outfit", sans-serif;
     border-radius: 15px;
     display: flex;
     align-items: center;
